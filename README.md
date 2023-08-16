@@ -44,15 +44,3 @@ Cardinality refers to the number of relationships between tables: one-to-one, on
 **npm**: Node.js package manager for installing and managing packages.
 
 **npx**: Executes packages without global installation. Useful for one-off commands and tools.
-
-## About Me
-
-I've built my career at Tesla with increasing responsibilities over 5 years. Studied web development for 2 years, then completed a 1-year bootcamp mastering frontend and backend. I hold over 20 certificates in frontend technologies. Passionate about exploring Java, C#, and C++. Looking for roles as a Frontend Developer to apply my skills and enthusiasm in a collaborative environment, where limitless learning drives my motivation.
-
-## Skills
-
-**Languages**: JavaScript, HTML5, CSS3, Java.
-
-**Technologies**: ReactJS, Node.js, Git/Github, RESTful APIs, JSON, SQLite, MySQL, SQL.
-
-**Frameworks**: ExpressJS, bcryptJS, Jest (Automated Testing), JWT (Authentication), Multer, CORS, Axios, Styled Components, React Icons, Swiper, React Router Dom.
