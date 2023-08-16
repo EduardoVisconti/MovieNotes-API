@@ -14,8 +14,6 @@ Routes are the endpoints of the application, accessible via URLs. Controllers ar
 - **DELETE**: Delete a resource.
 - **PATCH**: Partially update a resource.
 
-Use ":" before parameter names. Params are used for specific resource retrieval; query parameters for filtering. Params: http://localhost:3333/message/1/John
-
 ## Middleware
 
 Middleware functions have access to request and response objects. They perform actions and pass data to the next middleware. They can also send responses to clients.
