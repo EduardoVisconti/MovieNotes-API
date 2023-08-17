@@ -1,46 +1,79 @@
-# Overview
+# Movie Notes App
 
-**server.js**: This is the main entry point of the application. It starts the server using the Express.js framework, which is designed for building web applications and APIs.
+Movie Notes App is a Node.js application that allows users to create and manage movie notes, along with tags related to the movies.
 
-## Routes and Controllers
+## Table of Contents
 
-Routes are the endpoints of the application, accessible via URLs. Controllers are functions that handle requests and send responses.
+- Features
+- Installation
+- Usage
+- Technologies
+- Contributing
+- License
 
-### HTTP Verbs
+## Features
 
-- **GET**: Retrieve a resource.
-- **POST**: Create a resource.
-- **PUT**: Update a resource.
-- **DELETE**: Delete a resource.
-- **PATCH**: Partially update a resource.
+- User registration and authentication.
+- Create, read, update, and delete movie notes.
+- Add tags to movie notes for better organization.
+- Password encryption using bcrypt for enhanced security.
+- Error handling and validation for user-friendly interactions.
+- SQLite database for data storage.
+- Pagination and filtering for efficient data retrieval.
+- Express framework for routing and server setup.
 
-## Middleware
+## Installation
 
-Middleware functions have access to request and response objects. They perform actions and pass data to the next middleware. They can also send responses to clients.
+1. Clone the repository:
 
-## SQL and CRUD
+   ```
+   git clone https://github.com/your-username/movienotesapp.git
+   cd movienotesapp
+   ```
 
-SQL (Structured Query Language) accesses and manipulates databases. CRUD stands for Create, Read, Update, Delete.
+2. Install dependencies:
 
-- **CREATE**: SQL INSERT
-- **READ**: SQL SELECT
-- **UPDATE**: SQL UPDATE
-- **DELETE**: SQL DELETE
+   ```
+   npm install
+   ```
 
-## knex.js and Migrations
+3. Create the SQLite database:
+   ```
+   npm run migrate
+   ```
+   This will initialize the database required for the app.
 
-Knex.js is a versatile SQL query builder for various databases. Migrations are a way to modify database schema consistently. Migrations have UP (alter table) and DOWN (revert UP) methods.
+## Usage
 
-## Primary and Foreign Keys
+1. Start the server:
 
-Primary keys uniquely identify rows; they're unique and non-null. Foreign keys establish relationships between tables.
+   ```
+   npm run dev
+   ```
 
-## Cardinality
+2. Open your web browser and navigate to `http://localhost:3333`.
 
-Cardinality refers to the number of relationships between tables: one-to-one, one-to-many, or many-to-many.
+3. Register a new user and start adding movie notes with tags!
 
-## npm vs npx
+## Technologies
 
-**npm**: Node.js package manager for installing and managing packages.
+- Node.js
+- Express.js
+- SQLite
+- Knex.js
+- Bcrypt for password encryption
+- Express Async Errors for error handling
+- Nodemon for development server
+- Pagination and filtering
 
-**npx**: Executes packages without global installation. Useful for one-off commands and tools.
+## Contributing
+
+Contributions to this project are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Created with ❤️ by [Eduardo Visconti](https://github.com/EduardoVisconti)
