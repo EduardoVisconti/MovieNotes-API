@@ -4,12 +4,13 @@ Movie Notes App is a Node.js application that allows users to create and manage 
 
 ## Table of Contents
 
-- Features
-- Installation
-- Usage
-- Technologies
-- Contributing
-- License
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Layout](#layout)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -65,6 +66,12 @@ Movie Notes App is a Node.js application that allows users to create and manage 
 - Express Async Errors for error handling
 - Nodemon for development server
 - Pagination and filtering
+
+## Layout
+
+You can view the layout of the Movie Notes App below:
+
+![Layout](./layout-screenshot.png)
 
 ## Contributing
 
