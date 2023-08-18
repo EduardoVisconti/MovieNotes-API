@@ -27,7 +27,7 @@ Movie Notes App is a Node.js application that allows users to create and manage 
 1. Clone the repository:
 
    ```
-   git clone https://github.com/EduardoVisconti/movienotesapp.git
+   git clone https://github.com/EduardoVisconti/movienotes-api.git
    cd movienotesapp
    ```
 
