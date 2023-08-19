@@ -1,4 +1,4 @@
-# Movie Notes App
+# Movie Notes Api
 
 Movie Notes App is a Node.js application that allows users to create and manage movie notes, along with tags related to the movies.
 
@@ -29,7 +29,7 @@ Movie Notes App is a Node.js application that allows users to create and manage 
 
    ```
    git clone https://github.com/EduardoVisconti/movienotes-api.git
-   cd movienotesapp
+   cd movienotesapi
    ```
 
 2. Install dependencies:
@@ -58,20 +58,21 @@ Movie Notes App is a Node.js application that allows users to create and manage 
 
 ## Technologies
 
-- Node.js
-- Express.js
-- SQLite
-- Knex.js
-- Bcrypt for password encryption
-- Express Async Errors for error handling
-- Nodemon for development server
+- [Node.js](https://nodejs.org)
+- [Express.js](https://expressjs.com)
+- [SQLite](https://www.sqlite.org)
+- [Knex.js](https://knexjs.org)
+- [Bcrypt](https://www.npmjs.com/package/bcrypt) for password encryption
+- [Express Async Errors](https://www.npmjs.com/package/express-async-errors) for error handling
+- [Nodemon](https://nodemon.io) for development server
 - Pagination and filtering
 
 ## Layout
 
 You can view the layout of the Movie Notes App below:
 
-![Layout](./layout-screenshot.png)
+![Beekeeper Studio](https://i.imgur.com/uqWxpsD.jpg)
+![Insomnia](https://i.imgur.com/7xec7rA.jpg)
 
 ## Contributing
 
